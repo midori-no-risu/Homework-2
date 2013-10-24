@@ -26,6 +26,7 @@ class NyanCat extends AbstractCat implements CatInterface
         } else {
             $message = 'Your cat looks like ' . $this->getBody() . ' with ' . $this->getTail() . ' tail.';
         }
+
         return $message;
     }
 }
